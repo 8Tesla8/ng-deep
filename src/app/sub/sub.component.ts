@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
 
 @Component({
@@ -7,11 +7,6 @@ import { ViewEncapsulation } from '@angular/core';
   styleUrls: ['./sub.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class SubComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class SubComponent {
 
 }
